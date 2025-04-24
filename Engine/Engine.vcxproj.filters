@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Window.h" />
+    <ClInclude Include="Headers\gil.h" />
+    <ClInclude Include="Headers\Window_DX.h" />
+    <ClInclude Include="Headers\Game.h" />
+    <ClInclude Include="Headers\Renderer.h" />
+    <ClInclude Include="Components\Headers\Component.h" />
+    <ClInclude Include="Headers\Observer.h" />
+    <ClInclude Include="Headers\Entity.h" />
+    <ClInclude Include="Headers\Scene.h" />
+    <ClInclude Include="Headers\VBO.h" />
+    <ClInclude Include="Headers\VBO_DX.h" />
+    <ClInclude Include="Headers\Renderer_DX.h" />
+    <ClInclude Include="Headers\Mesh.h" />
+    <ClInclude Include="Headers\ResourceManager.h" />
+    <ClInclude Include="Headers\Message.h" />
+    <ClInclude Include="Components\Headers\RenderComponent.h" />
+    <ClInclude Include="Components\Headers\TransformComponent.h" />
+    <ClInclude Include="Systems\Headers\System.h" />
+    <ClInclude Include="Systems\Headers\RenderSystem.h" />
+    <ClInclude Include="Headers\SceneManager.h" />
+    <ClInclude Include="Headers\Timer.h" />
+    <ClInclude Include="Headers\InputManager.h" />
+    <ClInclude Include="Headers\KeyCode.h" />
+    <ClInclude Include="Headers\Shader.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Components\Headers\ColliderComponent.h" />
+    <ClInclude Include="Components\Headers\Collider.h" />
+    <ClInclude Include="Components\Headers\AABBCollider.h" />
+    <ClInclude Include="Components\Headers\RayCollider.h" />
+    <ClInclude Include="Systems\Headers\CollisionSystem.h" />
+    <ClInclude Include="Systems\Headers\NetworkSystem.h" />
+    <ClInclude Include="Headers\NetMessages.h" />
+    <ClInclude Include="Headers\NetworkHandler.h" />
+    <ClInclude Include="Headers\SerializeHelpers.h" />
+    <ClInclude Include="Headers\Types.h" />
+    <ClInclude Include="Components\Headers\OctTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Window.cpp" />
+    <ClCompile Include="Source\Window_DX.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Components\Source\Component.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
+    <ClCompile Include="Source\VBO.cpp" />
+    <ClCompile Include="Source\VBO_DX.cpp" />
+    <ClCompile Include="Source\Renderer_DX.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\ResourceManager.cpp" />
+    <ClCompile Include="Components\Source\RenderComponent.cpp" />
+    <ClCompile Include="Components\Source\TransformComponent.cpp" />
+    <ClCompile Include="Systems\Source\System.cpp" />
+    <ClCompile Include="Systems\Source\RenderSystem.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="Components\Source\ColliderComponent.cpp" />
+    <ClCompile Include="Components\Source\Collider.cpp" />
+    <ClCompile Include="Components\Source\AABBCollider.cpp" />
+    <ClCompile Include="Components\Source\RayCollider.cpp" />
+    <ClCompile Include="Systems\Source\CollisionSystem.cpp" />
+    <ClCompile Include="Systems\Source\NetworkSystem.cpp" />
+    <ClCompile Include="Components\Source\Octree.cpp" />
+    <ClCompile Include="Source\gil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
