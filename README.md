@@ -1,1 +1,1 @@
-Also, this was a fun project as it was the first time I was able to partition out the Engine from the Game.
+The basic premise was to have multiple user's steal voxels/pixels from each other's canvases. It was a good test of our networking skills since we needed to ensure reliability & speed between user's taking voxels.
